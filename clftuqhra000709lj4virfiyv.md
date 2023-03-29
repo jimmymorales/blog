@@ -10,7 +10,7 @@ tags: android-development, gradle, android
 
 ---
 
-Dependencies are a fundamental aspect of Android app development, allowing you to incorporate functionality and features from third-party libraries into their projects. However, dependencies are not static - they are frequently updated by their creators to improve performance, fix bugs, and address security vulnerabilities.
+Dependencies are a fundamental aspect of Android app development, allowing you to incorporate functionality and features from third-party libraries into your projects. However, dependencies are not static - they are frequently updated by their creators to improve performance, fix bugs, and address security vulnerabilities.
 
 Despite the importance of keeping dependencies up to date, many Android projects suffer from outdated dependencies that can lead to compatibility issues, security vulnerabilities, and other problems. In this blog post, we'll explore why it's crucial to often update the dependencies of an Android project and how to do it effectively.
 
@@ -18,7 +18,7 @@ Despite the importance of keeping dependencies up to date, many Android projects
 
 At this point, we all know that maintaining a software project is not an easy task. Most of the time we are focusing only on the new features of the product and not on the tech debt we are leaving behind. Updating dependencies can be a time-consuming process, especially if there are a lot of dependencies to update or if the updates require significant changes to the codebase. You may not have the time or resources available to devote to this process, particularly if you are working on a tight schedule. They can sometimes introduce compatibility issues with other parts of the codebase or with other dependencies which can be particularly problematic if the project is complex or has been in development for a long time, as there may be many different dependencies and components to consider.
 
-There is always the risk of breaking changes. Dependency updates can sometimes introduce breaking changes, which can cause the app to stop working or behave unexpectedly. You may be hesitant to update dependencies if they are concerned about the potential impact of these changes on the app's functionality. And in some cases, different dependencies may require different versions of the same library, which can lead to conflicts and make it difficult to update dependencies without introducing other issues.
+There is always the risk of breaking changes. Dependency updates can sometimes introduce breaking changes, which can cause the app to stop working or behave unexpectedly. You may be hesitant to update dependencies if you are concerned about the potential impact of these changes on the app's functionality. And in some cases, different dependencies may require different versions of the same library, which can lead to conflicts and make it difficult to update dependencies without introducing other issues.
 
 And last but not least, you may not be aware of the importance of keeping dependencies up to date, or may not have the necessary knowledge or tools to perform updates effectively, and this is what this blog post is trying to solve.
 
