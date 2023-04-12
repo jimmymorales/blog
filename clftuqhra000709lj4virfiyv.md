@@ -111,6 +111,10 @@ When an outdated dependency is identified, Renovate Bot will automatically creat
 
 Renovate Bot can be customized to fit the specific needs of a project, including configuring which dependencies to update, how often to check for updates, and how to handle conflicts or compatibility issues. It can also be set up to automatically merge pull requests that pass automated tests, further streamlining the process of updating dependencies.
 
+*UPDATE: If you are using Jetpack Compose in your Android project (if not, you should), I recommend you to read the post from Jose Alcérreca about "Automating dependency updates in a Compose project".*
+
+%[https://medium.com/androiddevelopers/automating-dependency-updates-in-a-compose-project-168ef5e89ac5] 
+
 # Takeaways
 
 Updating dependencies is a critical aspect of Android app development, ensuring that apps remain performant, secure, and compatible with different versions of Android and other dependencies. By following best practices like avoiding dynamic versions, checking for deprecated API calls, using version catalogs, and leveraging automation tools, you can simplify the process of updating dependencies and ensure that your Android apps remain up-to-date and secure.
